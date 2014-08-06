@@ -1,29 +1,24 @@
-# Ttt::Cmd
+TicTacToe - Command line
+========================
 
-TODO: Write a gem description
+Rails application allowing to play TicTacToe game against a (drunk) coAmputer.
 
-## Installation
+Built as an show of different kinds of User Interfaces, as part as a talk given at [Paris.rb](https://speakerdeck.com/vanakenm/ive-an-idea-lets-do-a-webapp-or-not).
 
-Add this line to your application's Gemfile:
+Requires the [web server](http://github.com/vanakenm/ttt-web) to be running locally.
 
-    gem 'ttt-cmd'
+# Build the gem
 
-And then execute:
+    rake install
 
-    $ bundle
+# Usage
 
-Or install it yourself as:
+Launch your server (expected on localhost:3000). Then:
 
-    $ gem install ttt-cmd
+    ttt --start
 
-## Usage
+to start a game.
 
-TODO: Write usage instructions here
+    ttt -g <id> -m <x>,<y>
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/ttt-cmd/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+to play.
